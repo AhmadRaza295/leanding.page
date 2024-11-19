@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leather Custom Manufacturing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.js">
+</head>
+<body>
+
+
+
+
+<!-- Header & Hero Section (Combined) -->
+<div class="hero-container">
+    <header>
+        <!-- Logo Section -->
+        <div class="logo">
+          <h1>Leather Artisan</h1>
+        </div>
+        
+        <!-- Navigation -->
+            <!-- Hamburger Menu Icon -->
+            <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div> <!-- Three-line icon -->
+            <ul id="nav-links" class="hidden">
+                <li><a href="">Home</a></li>
+                <li><a href="#">Category</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Customization</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </header>
+
+    <!-- Hero Content -->
+    <div class="hero-content">
+        <h2>Crafting Custom Leather Goods with Precision</h2>
+        <p>Experience the finest quality and craftsmanship in every piece.</p>
+        <a href="#" class="btn">Book Appointment</a>
+    </div>
+</div>
+<!-- Men, Women, and Accessories Sections -->
+
+<div class="sections-container">
+
+  <!-- Men Section -->
+  <div class="section" id="men-section">
+      <div class="section-content">
+          <h2>Men</h2>
+          <p>Explore our premium men's collection.</p>
+           <!-- <a href="#" class="btn">Shop Now</a> -->
+      </div>
+  </div>
+
+  <!-- Women Section -->
+  <div class="section" id="women-section">
+      <div class="section-content">
+          <h2>Women</h2>
+          <p>Discover elegant women's fashion.</p>
+          <!-- <a href="#" class="btn">Shop Now</a>-->
+      </div>
+  </div>
+
+  <!-- Accessories Section -->
+  <div class="section" id="accessories-section">
+      <div class="section-content">
+          <h2>Accessories</h2>
+          <p>Find the perfect accessories to complement your style.</p>
+          <!-- <a href="#" class="btn">Explore Now</a> -->
+      </div>
+  </div>
+</div>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<div class="motivation" data-aos="fade-up" data-aos-duration="1000"><p>Crafting timeless leather goods with unmatched precision and passion</p ></div>
+
+  
+  <div class="background-section-ONE">
+    <h2 class="heading-ONE">LEATHER JACKET</h2>
+  </div>
+ 
+
+  
+    <!-- Slider Container -->
+    <div class="slider-container" id="slider-container">
+      <button class="nav-button left" onclick="moveSlide(-1)">&#10094;</button>
+      <div class="slider-track" id="slider-track">
+        <!-- Slides with images and product names -->
+        <div class="slide"><img src="asset/first img.webp" alt=""><i class="fa-solid fa-shirt"></i><div class="product-name">Product 1</div></div>
+        <div class="slide"><img src="asset/jacket no 2.webp" alt=""><i class="fa-solid fa-shirt"></i><div class="product-name">Product 2</div></div>
+        <div class="slide"><img src="asset/jacket no 3.webp" alt=""><i class="fa-solid fa-shirt"></i><div class="product-name">Product 3</div></div>
+        <div class="slide"><img src="asset/jacket no 4.webp" alt=""><i class="fa-solid fa-shirt"></i><div class="product-name">Product 4</div></div>
+        <div class="slide"><img src="asset/jacket no 5.webp" alt=""><i class="fa-solid fa-shirt"></i><div class="product-name">Product 5</div></div>
+        <div class="slide"><img src="asset/jacket no 6.webp" alt=""><i class="fa-solid fa-shirt"></i><div class="product-name">Product 6</div></div>
+        <div class="slide"><img src="asset/jacket 7.1.webp" alt=""><i class="fa-solid fa-shirt"></i><div class="product-name">Product 7</div></div>
+        <div class="slide"><img src="asset/JACKET NO 12.webp" alt=""><i class="fa-solid fa-shirt"></i><div class="product-name">Product 8</div></div>
+        <div class="slide"><img src="asset/jacket no 9.webp" alt=""><i class="fa-solid fa-shirt"></i><div class="product-name">Product 9</div></div>
+        <div class="slide"><img src="asset/JACKET NO 13.webp" alt=""><i class="fa-solid fa-shirt"></i><div class="product-name">Product 10</div></div>
+      </div>
+      <button class="nav-button right" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+  </div>
+
+  <div class="background-section">
+    <h2 class="heading">ACCESSORIES</h2>
+  </div>
+  
+  <div class="slider-container" id="slider-container-2">
+    <button class="nav-button left" onclick="moveSlideTwo(-1)">&#10094;</button>
+    <div class="slider-track" id="slider-track-2">
+      <!-- 20 Slides with images and product names -->
+      <div class="slide"><img src="asset/bags-1.webp" alt=""><i class="fa-solid fa-shirt"></i><div class="product-name">Product 11</div></div>
+      <div class="slide"><img src="asset/bags-2.webp" alt=""><i class="fa-solid fa-shirt"></i><div class="product-name">Product 12</div></div>
+      <div class="slide"><img src="asset/bags-3.webp" alt=""><i class="fa-solid fa-shirt"></i><div class="product-name">Product 11</div></div>
+      <div class="slide"><img src="asset/bags-4.webp" alt=""><i class="fa-solid fa-shirt"></i><div class="product-name">Product 12</div></div>
+      <div class="slide"><img src="asset/bags-5.webp" alt=""><i class="fa-solid fa-shirt"></i><div class="product-name">Product 11</div></div>
+      <div class="slide"><img src="asset/bags-6.webp" alt=""><i class="fa-solid fa-shirt"></i><div class="product-name">Product 12</div></div>
+      <div class="slide"><img src="asset/bags-7.webp" alt=""><i class="fa-solid fa-shirt"></i><div class="product-name">Product 12</div></div>
+      <div class="slide"><img src="asset/bags-8.webp" alt=""><i class="fa-solid fa-shirt"></i><div class="product-name">Product 12</div></div>
+      <div class="slide"><img src="asset/bags-9.webp" alt=""><i class="fa-solid fa-shirt"></i><div class="product-name">Product 12</div></div>
+      <div class="slide"><img src="asset/bags-10.webp" alt=""><i class="fa-solid fa-shirt"></i><div class="product-name">Product 12</div></div>
+      <div class="slide"><img src="asset/bags-11.webp" alt=""><i class="fa-solid fa-shirt"></i><div class="product-name">Product 12</div></div>
+      <div class="slide"><img src="asset/bags-12.webp" alt=""><i class="fa-solid fa-shirt"></i><div class="product-name">Product 12</div></div>
+      <div class="slide"><img src="asset/bags-12.webp" alt=""><i class="fa-solid fa-shirt"></i><div class="product-name">Product 12</div></div>
+
+
+      <!-- Add more slides up to Product 30 -->
+    </div>
+    <button class="nav-button right" onclick="moveSlideTwo(1)">&#10095;</button>
+  </div>
+  
+
+
+
+  <div class="responsive-container">
+    <!-- First Section: Heading -->
+    <h1 class="responsive-heading">Welcome to Our Page</h1>
+    
+    <!-- Second Section: Paragraph -->
+    <p class="responsive-paragraph">
+      Discover the best content, articles, and services </p>
+      <h3 class="h3whytewhite">This isn’t a sales pitch,<br>it’s&nbsp;our last project.</h3>
+    
+    
+    <!-- Third Section: Button -->
+    <a href="https://www.youtube.com/channel/UCGwqUQrL44i1C7OhBzDMK9g" class="blueline"><div class="button-container">
+      <button class="responsive-button"> I Want One Too!</button>
+    </div>
+      
+  </div>
+</a>
+
+  
+  
+
+ 
+  <footer class="footer">
+    <div class="footer-container">
+      <!-- First Section: Logo -->
+      <div class="footer-section">
+        <h3>Leather Artisan</h3>
+        <div class="footer-logo">
+          <img src="asset/logo.webp" alt="Company Logo" class="logo">
+        </div>
+      </div>
+      
+  
+      <!-- Second Section: Social Media -->
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="footer-social">
+          <a href="https://www.instagram.com" target="_blank" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.facebook.com" target="_blank" class="social-icon">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.twitter.com" target="_blank" class="social-icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+      </div>
+  
+      <!-- Third Section: Contact Information -->
+      <div class="footer-section">
+        <h3>Call us</h3>
+        <div class="footer-contact">
+          <p>+1-123-456-7890</p>
+          <p>infi@idoif.com</p>
+        </div>
+      </div>
+    </div>
+  </footer>  
+<!-- JavaScript -->
+
+
+
+</body>
+</html>
